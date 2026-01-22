@@ -1,37 +1,19 @@
 <div id="top"></div>
-<h1 align="center">
-    <a href="https://github.com/mammaddrik/christopher"><img src="https://i.postimg.cc/7h9CxC2V/christopher.png" alt="christopher logo" width="200" height="200"></a>
-    <br>
-    Christopher
-</h1>
-
-<h3 align="center">Tool for Encryption & Decryption</h3>
-
 <p align="center">
-    <a href="https://github.com/mammaddrik/christopher/releases">
-    <img src="https://img.shields.io/github/release/mammaddrik/christopher.svg">
+    <a href="https://github.com/mammaddrik/christopher">
+    <!-- <img src="https://i.postimg.cc/7h9CxC2V/christopher.png" alt="christopher logo">--></a>
 </p>
+
+# Christopher
 
 <p align="center">
     <img src="https://i.postimg.cc/VkJkrZtn/christopher.png">
 </p>
 
-<details>
-<summary>Contents</summary>
-
-[Including](#Including)<br>
-[Installation](#installation)<br>
-[Usage](#usage)<br>
-[License](#license)
-
-</details>
-
-<br>
-This is a python script for cryptography and steganography that is compiled from ciphers. Each algorithm includes Encryption and Decryption.
-<br>
-
 What is Cryptography? [Here](https://en.wikipedia.org/wiki/Cryptography)<br>
 What is Steganography? [Here](https://en.wikipedia.org/wiki/Steganography)
+
+## Features
 
 ## Including
 <details>
@@ -147,19 +129,12 @@ python pip install -r requirements.txt
 python christopher.py
 ```
 
-<p align="center">
-    <img src="https://i.postimg.cc/R0t7NnNQ/christopher-Windows.png">
-</p>
-
 ### <img src="https://cdn.simpleicons.org/docker/2496ED" width="15" height="15" alt="docker"/> Docker
 install docker on your system. [docker](https://www.docker.com/)
 ```
 docker build -t christopher .
 docker run -ti christopher
 ```
-<p align="center">
-    <img src="https://i.postimg.cc/Y0vqCQSt/christopher-docker.png">
-</p>
 
 ### <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/linux-colored.svg" width="15" height="15" alt="Linux"/> Linux
 > **Note:** Christopher isn't compatible with python2, run it with python3 instead.<br>
@@ -180,10 +155,6 @@ christopher
 ```
 > **Note:** If you get a permission denied error, use this comment: `bash christopher`<br>
 
-<p align="center">
-    <img src="https://i.postimg.cc/BQNM0DKj/christopher-Linux.png">
-</p>
-
 ### requirements
 | **Requirements**  | **Command**  | **Link**  | **Version**  |
 | ------------- | ------------- | ------------- | ------------- |
@@ -201,8 +172,8 @@ python pip install -r requirements.txt
 ```
 
 ## Usage
-After installing the script, you can choose options from the script.<br>
 
+## Screenshots
 
 ## License
 Christopher is licensed under [MIT License](https://github.com/mammaddrik/christopher/blob/main/LICENSE).
