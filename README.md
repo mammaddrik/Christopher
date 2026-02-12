@@ -18,77 +18,76 @@ What is Cryptography? [Here](https://en.wikipedia.org/wiki/Cryptography)<br>
 ## Including
 <details>
 
-**Cryptography**
-  - Atbash Cipher
-  - Caesar Cipher
-    - Encryption
-    - Decryption
-    - Crack
-  - Affine Cipher
-    - Encryption
-    - Decryption
-    - Crack
-  - Vigenère Cipher
-    - Encryption
-    - Decryption
-    - Crack
-  - Reverse Text
-  - Play Fire Cipher
-    - Encryption
-    - Decryption
-  - Rail Fence Cipher
-    - Encryption
-    - Decryption
-    - Crack
-  - Scytale Cipher
-    - Encryption
-    - Decryption
-  - Polybius Square
-  - Columnar Cipher
-    - Encryption
-    - Decryption
-    - Crack
-  - Simple Substitution Cipher
-    - Encryption
-    - Decryption
-    - Crack
-  - Baconian Cipher
-  - Morse Code
-  - Rot13 Cipher
-  - One-Time Pad Cipher
-    - Encryption
-    - Decryption
-  - Hash Function
-    - Hash Generator
-      - MD2
-      - MD4
-      - MD5
-      - SHA1
-      - SHA224
-      - SHA256
-      - SHA384
-      - SHA512
-      - sha3-224
-      - sha3-256
-      - sha3-384
-      - sha3-512
-      - shake-128
-      - shake-256
-      - blake2b
-      - blake2s
-      - NTLM
-      - adler32
-      - crc32
-    - Hash Cracker
-      - MD5
-      - SHA1
-      - SHA256
-      - SHA384
-      - SHA512
-  - Enigma Machine
-  - Public Key Cipher
-    - Encryption
-    - Decryption
+- **Atbash Cipher**
+- **Caesar Cipher**
+  - Encryption
+  - Decryption
+  - Crack
+- **Affine Cipher**
+  - Encryption
+  - Decryption
+  - Crack
+- **Vigenère Cipher**
+  - Encryption
+  - Decryption
+  - Crack
+- **Reverse Text**
+- **Play Fire Cipher**
+  - Encryption
+  - Decryption
+- **Rail Fence Cipher**
+  - Encryption
+  - Decryption
+  - Crack
+- **Scytale Cipher**
+  - Encryption
+  - Decryption
+- **Polybius Square**
+- **Columnar Cipher**
+  - Encryption
+  - Decryption
+  - Crack
+- **Simple Substitution Cipher**
+  - Encryption
+  - Decryption
+  - Crack
+- **Baconian Cipher**
+- **Morse Code**
+- **Rot13 Cipher**
+- **One-Time Pad Cipher**
+  - Encryption
+  - Decryption
+- **Hash Function**
+  - **Hash Generator**
+    - MD2
+    - MD4
+    - MD5
+    - SHA1
+    - SHA224
+    - SHA256
+    - SHA384
+    - SHA512
+    - sha3-224
+    - sha3-256
+    - sha3-384
+    - sha3-512
+    - shake-128
+    - shake-256
+    - blake2b
+    - blake2s
+    - NTLM
+    - adler32
+    - crc32
+  - **Hash Cracker**
+    - MD5
+    - SHA1
+    - SHA256
+    - SHA384
+    - SHA512
+- **Enigma Machine**
+- **Public Key Cipher**
+  - Encryption
+  - Decryption
 </details>
 
 ## Installation
