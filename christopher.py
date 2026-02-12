@@ -52,7 +52,6 @@ import hashlib
 import string
 import re
 import secrets
-import webbrowser
 from datetime import datetime
 from itertools import product
 from hmac import compare_digest
@@ -362,7 +361,7 @@ def christopher():
         clearScr()
         time.sleep(0.4)
         print(Banner.banner)
-        pick = input("    [01]Encryption       [02]Decryption\n    [99]Back to Main Menu\n\n┌───(christopher)─[~/christopher/Cryptography/Playfair Cipher]\n└─"+color_banner[1]+"$ "+Color.End)
+        pick = input("   [01]Encryption        [02]Decryption\n   [99]Back to Main Menu\n\n┌───(christopher)─[Playfair Cipher]\n└─"+color_banner[1]+"$ "+Color.End)
 
         #::::: Encryption :::::
         if(pick == "1" or pick == "01"):
@@ -370,7 +369,7 @@ def christopher():
             time.sleep(0.4)
             print(Banner.banner)
             enc = True
-            usermassage = input("\n┌───(christopher)─[~/christopher/Cryptography/Playfair Cipher/Encryption]\n├─[Enter your Plaintext]"+color_banner[1]+"$ "+Color.End).upper().strip()
+            usermassage = input("\n┌───(christopher)─[Playfair Cipher/Encryption]\n├─[Enter your Plaintext]"+color_banner[1]+"$ "+Color.End).upper().strip()
             if len(usermassage) == 0:
                 slowprint("└─["+Color.BRed+"Plaintext cannot be empty"+Color.End+"]")
                 again()
@@ -391,7 +390,7 @@ def christopher():
             time.sleep(0.4)
             print(Banner.banner)
             enc = False
-            usermassage = input("\n┌───(christopher)─[~/christopher/Cryptography/Playfair Cipher/Decryption]\n├─[Enter your Plaintext]"+color_banner[1]+"$ "+Color.End).upper().strip()
+            usermassage = input("\n┌───(christopher)─[Playfair Cipher/Decryption]\n├─[Enter your Plaintext]"+color_banner[1]+"$ "+Color.End).upper().strip()
             if len(usermassage) == 0:
                 slowprint("└─["+Color.BRed+"Plaintext cannot be empty"+Color.End+"]")
                 again()
@@ -417,14 +416,14 @@ def christopher():
         clearScr()
         time.sleep(0.4)
         print(Banner.banner)
-        pick = input("    [01]Encryption       [02]Decryption\n    [03]Crack            [99]Back to Main Menu\n\n┌───(christopher)─[~/christopher/Cryptography/Playfair Cipher]\n└─"+color_banner[1]+"$ "+Color.End)
+        pick = input("   [01]Encryption        [02]Decryption\n   [03]Crack             [99]Back to Main Menu\n\n┌───(christopher)─[Playfair Cipher]\n└─"+color_banner[1]+"$ "+Color.End)
 
         #::::: Encryption :::::
         if(pick == "1" or pick == "01"):
             clearScr()
             time.sleep(0.4)
             print(Banner.banner)
-            plaintext = input("\n┌───(christopher)─[~/christopher/Cryptography/Rail Fence Cipher/Encryption]\n├─[Enter your Plaintext]"+color_banner[1]+"$ "+Color.End).lower().strip()
+            plaintext = input("\n┌───(christopher)─[Rail Fence Cipher/Encryption]\n├─[Enter your Plaintext]"+color_banner[1]+"$ "+Color.End).lower().strip()
             if len(plaintext) == 0:
                 slowprint("└─["+Color.BRed+"Plaintext cannot be empty"+Color.End+"]")
                 again()
@@ -446,7 +445,7 @@ def christopher():
             clearScr()
             time.sleep(0.4)
             print(Banner.banner)
-            ciphertext = input("\n┌───(christopher)─[~/christopher/Cryptography/Rail Fence Cipher/Decryption]\n├─[Enter your Ciphertext]"+color_banner[1]+"$ "+Color.End).lower().strip()
+            ciphertext = input("\n┌───(christopher)─[Rail Fence Cipher/Decryption]\n├─[Enter your Ciphertext]"+color_banner[1]+"$ "+Color.End).lower().strip()
             if len(ciphertext) == 0:
                 slowprint("└─["+Color.BRed+"Ciphertext cannot be empty"+Color.End+"]")
                 again()
@@ -468,7 +467,7 @@ def christopher():
             clearScr()
             time.sleep(0.4)
             print(Banner.banner)
-            ciphertext = input("\n┌───(christopher)─[~/christopher/Cryptography/Rail Fence Cipher/Crack]\n└─[Enter your Ciphertext]"+color_banner[1]+"$ "+Color.End).lower().strip()
+            ciphertext = input("\n┌───(christopher)─[Rail Fence Cipher/Crack]\n└─[Enter your Ciphertext]"+color_banner[1]+"$ "+Color.End).lower().strip()
             if len(ciphertext) == 0:
                 slowprint("└─["+Color.BRed+"Ciphertext cannot be empty"+Color.End+"]")
                 again()
@@ -492,14 +491,14 @@ def christopher():
         clearScr()
         time.sleep(0.4)
         print(Banner.banner)
-        pick = input("    [01]Encryption       [02]Decryption\n    [03]Crack            [99]Back to Main Menu\n\n┌───(christopher)─[~/christopher/Cryptography/Playfair Cipher]\n└─"+color_banner[1]+"$ "+Color.End)
+        pick = input("   [01]Encryption        [02]Decryption\n   [03]Crack             [99]Back to Main Menu\n\n┌───(christopher)─[~/christopher/Cryptography/Playfair Cipher]\n└─"+color_banner[1]+"$ "+Color.End)
 
         #::::: Encryption :::::
         if(pick == "1" or pick == "01"):
             clearScr()
             time.sleep(0.4)
             print(Banner.banner)
-            plaintext = input("\n┌───(christopher)─[~/christopher/Cryptography/Scytale Cipher/Encryption]\n├─[Enter your Plaintext]"+color_banner[1]+"$ "+Color.End).lower().strip()
+            plaintext = input("\n┌───(christopher)─[Scytale Cipher/Encryption]\n├─[Enter your Plaintext]"+color_banner[1]+"$ "+Color.End).lower().strip()
             if len(plaintext) == 0:
                 slowprint("└─["+Color.BRed+"Plaintext cannot be empty"+Color.End+"]")
                 again()
@@ -517,7 +516,7 @@ def christopher():
             clearScr()
             time.sleep(0.4)
             print(Banner.banner)
-            ciphertext = input("\n┌───(christopher)─[~/christopher/Cryptography/Scytale Cipher/Decryption]\n├─[Enter your Ciphertext]"+color_banner[1]+"$ "+Color.End).lower().strip()
+            ciphertext = input("\n┌───(christopher)─[Scytale Cipher/Decryption]\n├─[Enter your Ciphertext]"+color_banner[1]+"$ "+Color.End).lower().strip()
             if len(ciphertext) == 0:
                 slowprint("└─["+Color.BRed+"Ciphertext cannot be empty"+Color.End+"]")
                 again()
@@ -535,7 +534,7 @@ def christopher():
             clearScr()
             time.sleep(0.4)
             print(Banner.banner)
-            ciphertext = input("\n┌───(christopher)─[~/christopher/Cryptography/Scytale Cipher/Crack]\n├─[Enter your Ciphertext]"+color_banner[1]+"$ "+Color.End).lower().strip()
+            ciphertext = input("\n┌───(christopher)─[Scytale Cipher/Crack]\n├─[Enter your Ciphertext]"+color_banner[1]+"$ "+Color.End).lower().strip()
             if len(ciphertext) == 0:
                 slowprint("└─["+Color.BRed+"Ciphertext cannot be empty"+Color.End+"]")
                 again()
@@ -558,7 +557,7 @@ def christopher():
         clearScr()
         time.sleep(0.4)
         print(Banner.banner)
-        message = input("\n┌───(christopher)─[~/christopher/Cryptography/Polybius Square Cipher]\n├─[Enter your message]"+color_banner[1]+"$ "+Color.End).upper().strip()
+        message = input("\n┌───(christopher)─[Polybius Square Cipher]\n├─[Enter your message]"+color_banner[1]+"$ "+Color.End).upper().strip()
         if len(message) == 0:
             slowprint("└─["+Color.BRed+"Message cannot be empty"+Color.End+"]")
             again()
@@ -577,14 +576,14 @@ def christopher():
         clearScr()
         time.sleep(0.4)
         print(Banner.banner)
-        pick = input("    [01]Encryption       [02]Decryption\n    [03]Crack            [99]Back to Main Menu\n\n┌───(christopher)─[~/christopher/Cryptography/Columnar Cipher]\n└─"+color_banner[1]+"$ "+Color.End)
+        pick = input("   [01]Encryption        [02]Decryption\n   [03]Crack             [99]Back to Main Menu\n\n┌───(christopher)─[~/christopher/Cryptography/Columnar Cipher]\n└─"+color_banner[1]+"$ "+Color.End)
 
         #::::: Encryption :::::
         if(pick == "1" or pick == "01"):
             clearScr()
             time.sleep(0.4)
             print(Banner.banner)
-            plaintext = input("\n┌───(christopher)─[~/christopher/Cryptography/Columnar Cipher/Encryption]\n├─[Enter your Plaintext]"+color_banner[1]+"$ "+Color.End).strip()
+            plaintext = input("\n┌───(christopher)─[Columnar Cipher/Encryption]\n├─[Enter your Plaintext]"+color_banner[1]+"$ "+Color.End).strip()
             if len(plaintext) == 0:
                 slowprint("└─["+Color.BRed+"Plaintext cannot be empty"+Color.End+"]")
                 again()
@@ -607,7 +606,7 @@ def christopher():
             clearScr()
             time.sleep(0.4)
             print(Banner.banner)
-            ciphertext = input("\n┌───(christopher)─[~/christopher/Cryptography/Columnar Cipher/Decryption]\n├─[Enter your Ciphertext]"+color_banner[1]+"$ "+Color.End).lower().strip()
+            ciphertext = input("\n┌───(christopher)─[Columnar Cipher/Decryption]\n├─[Enter your Ciphertext]"+color_banner[1]+"$ "+Color.End).lower().strip()
             if len(ciphertext) == 0:
                 slowprint("└─["+Color.BRed+"Ciphertext cannot be empty"+Color.End+"]")
                 again()
@@ -629,7 +628,7 @@ def christopher():
             clearScr()
             time.sleep(0.4)
             print(Banner.banner)
-            ciphertext = input("\n┌───(christopher)─[~/christopher/Cryptography/Columnar Cipher/Crack]\n├─[Enter your Ciphertext]"+color_banner[1]+"$ "+Color.End).lower().strip()
+            ciphertext = input("\n┌───(christopher)─[Columnar Cipher/Crack]\n├─[Enter your Ciphertext]"+color_banner[1]+"$ "+Color.End).lower().strip()
             if len(ciphertext) == 0:
                 slowprint("└─["+Color.BRed+"Ciphertext cannot be empty"+Color.End+"]")
                 again()
@@ -652,14 +651,14 @@ def christopher():
         clearScr()
         time.sleep(0.4)
         print(Banner.banner)
-        pick = input("    [01]Encryption       [02]Decryption\n    [03]Crack            [99]Back to Main Menu\n\n┌───(christopher)─[~/christopher/Cryptography/Simple Substitution Cipher]\n└─"+color_banner[1]+"$ "+Color.End)
+        pick = input("   [01]Encryption        [02]Decryption\n   [03]Crack             [99]Back to Main Menu\n\n┌───(christopher)─[~/christopher/Cryptography/Simple Substitution Cipher]\n└─"+color_banner[1]+"$ "+Color.End)
 
         #::::: Encryption :::::
         if(pick == "1" or pick == "01"):
             clearScr()
             time.sleep(0.4)
             print(Banner.banner)
-            plaintext = input("\n┌───(christopher)─[~/christopher/Cryptography/Simple Substitution Cipher/Encryption]\n├─[Enter your Plaintext]"+color_banner[1]+"$ "+Color.End).strip()
+            plaintext = input("\n┌───(christopher)─[Simple Substitution Cipher/Encryption]\n├─[Enter your Plaintext]"+color_banner[1]+"$ "+Color.End).strip()
             if len(plaintext) == 0:
                 slowprint("└─["+Color.BRed+"Plaintext cannot be empty"+Color.End+"]")
                 again()
@@ -676,7 +675,7 @@ def christopher():
             clearScr()
             time.sleep(0.4)
             print(Banner.banner)
-            ciphertext = input("\n┌───(christopher)─[~/christopher/Cryptography/Simple Substitution Cipher/Decryption]\n├─[Enter your Ciphertext]"+color_banner[1]+"$ "+Color.End).strip()
+            ciphertext = input("\n┌───(christopher)─[Simple Substitution Cipher/Decryption]\n├─[Enter your Ciphertext]"+color_banner[1]+"$ "+Color.End).strip()
             if len(ciphertext) == 0:
                 slowprint("└─["+Color.BRed+"Ciphertext cannot be empty"+Color.End+"]")
                 again()
@@ -700,7 +699,7 @@ def christopher():
             clearScr()
             time.sleep(0.4)
             print(Banner.banner)
-            ciphertext = input("\n┌───(christopher)─[~/christopher/Cryptography/Simple Substitution Cipher/Crack]\n├─[Enter your Ciphertext]"+color_banner[1]+"$ "+Color.End).strip()
+            ciphertext = input("\n┌───(christopher)─[Simple Substitution Cipher/Crack]\n├─[Enter your Ciphertext]"+color_banner[1]+"$ "+Color.End).strip()
             if len(ciphertext) == 0:
                 slowprint("└─["+Color.BRed+"Ciphertext cannot be empty"+Color.End+"]")
                 again()
@@ -757,7 +756,7 @@ def christopher():
         clearScr()
         time.sleep(0.4)
         print(Banner.banner)
-        message = input("\n┌───(christopher)─[~/christopher/Cryptography/Baconian Cipher]\n├─[Enter your message]"+color_banner[1]+"$ "+Color.End).upper().strip()
+        message = input("\n┌───(christopher)─[Baconian Cipher]\n├─[Enter your message]"+color_banner[1]+"$ "+Color.End).upper().strip()
         if len(message) == 0:
             slowprint("└─["+Color.BRed+"Message cannot be empty"+Color.End+"]")
             again()
@@ -781,7 +780,7 @@ def christopher():
         clearScr()
         time.sleep(0.4)
         print(Banner.banner)
-        message = input("\n┌───(christopher)─[~/christopher/Cryptography/Morse Code]\n├─[Enter your message]"+color_banner[1]+"$ "+Color.End).upper()
+        message = input("\n┌───(christopher)─[Morse Code]\n├─[Enter your message]"+color_banner[1]+"$ "+Color.End).upper()
         if len(message) == 0:
             slowprint("└─["+Color.BRed+"Message cannot be empty"+Color.End+"]")
             again()
@@ -802,7 +801,7 @@ def christopher():
         clearScr()
         time.sleep(0.4)
         print(Banner.banner)
-        message = input("\n┌───(christopher)─[~/christopher/Cryptography/Rot13]\n├─[Enter your text]"+color_banner[1]+"$ "+Color.End).lower().strip()
+        message = input("\n┌───(christopher)─[Rot13]\n├─[Enter your text]"+color_banner[1]+"$ "+Color.End).lower().strip()
         if len(message) == 0:
             slowprint("└─["+Color.BRed+"Message cannot be empty"+Color.End+"]")
             again()
@@ -818,14 +817,14 @@ def christopher():
         clearScr()
         time.sleep(0.4)
         print(Banner.banner)
-        pick = input("    [01]Encryption       [02]Decryption\n    [99]Back to Main Menu\n\n┌───(christopher)─[~/christopher/Cryptography/One-Time Pad Cipher]\n└─"+color_banner[1]+"$ "+Color.End)
+        pick = input("   [01]Encryption        [02]Decryption\n   [99]Back to Main Menu\n\n┌───(christopher)─[~/christopher/Cryptography/One-Time Pad Cipher]\n└─"+color_banner[1]+"$ "+Color.End)
 
         #::::: Encryption :::::
         if(pick == "1" or pick == "01"):
             clearScr()
             time.sleep(0.4)
             print(Banner.banner)
-            plaintext = input("\n┌───(christopher)─[~/christopher/Cryptography/One-Time Pad Cipher/Encryption]\n├─[Enter your Plaintext]"+color_banner[1]+"$ "+Color.End).lower().strip()
+            plaintext = input("\n┌───(christopher)─[One-Time Pad Cipher/Encryption]\n├─[Enter your Plaintext]"+color_banner[1]+"$ "+Color.End).lower().strip()
             if len(plaintext) == 0:
                 slowprint("└─["+Color.BRed+"Plaintext cannot be empty"+Color.End+"]")
                 again()
@@ -843,7 +842,7 @@ def christopher():
             clearScr()
             time.sleep(0.4)
             print(Banner.banner)
-            ciphertext = input("\n┌───(christopher)─[~/christopher/Cryptography/One-Time Pad Cipher/Decryption]\n├─[Enter your Ciphertext]"+color_banner[1]+"$ "+Color.End).lower().strip()
+            ciphertext = input("\n┌───(christopher)─[One-Time Pad Cipher/Decryption]\n├─[Enter your Ciphertext]"+color_banner[1]+"$ "+Color.End).lower().strip()
             if len(ciphertext) == 0:
                 slowprint("└─["+Color.BRed+"Ciphertext cannot be empty"+Color.End+"]")
                 again()
@@ -863,14 +862,14 @@ def christopher():
         clearScr()
         time.sleep(0.4)
         print(Banner.banner)
-        pick = input("    [01]Hash Generator    [02]Hash Cracker\n   [99]Back to Main Menu\n\n┌───(christopher)─[~/christopher/Cryptography/Hash Function]\n└─"+color_banner[1]+"$ "+Color.End)
+        pick = input("   [01]Hash Generator     [02]Hash Cracker\n   [99]Back to Main Menu\n\n┌───(christopher)─[~/christopher/Cryptography/Hash Function]\n└─"+color_banner[1]+"$ "+Color.End)
 
         #::::: Hash Generator :::::
         if (pick == "1" or pick == "01"):
             clearScr()
             time.sleep(0.4)
             print(Banner.banner)
-            password = input("\n┌───(christopher)─[~/christopher/Cryptography/Hash Function/Hash Generator]\n├─[Enter the password]"+color_banner[1]+"$ "+Color.End).strip()
+            password = input("\n┌───(christopher)─[Hash Function/Hash Generator]\n├─[Enter the password]"+color_banner[1]+"$ "+Color.End).strip()
             if len(password) == 0:
                 slowprint("└─["+Color.BRed+"Password cannot be empty"+Color.End+"]")
                 again()
@@ -931,7 +930,7 @@ def christopher():
             clearScr()
             time.sleep(0.4)
             print(Banner.banner)
-            Hash = input("\n┌───(christopher)─[~/christopher/Cryptography/Hash Function/Hash Cracker]\n├─[Enter the hash]"+color_banner[1]+"$ "+Color.End).strip()
+            Hash = input("\n┌───(christopher)─[Hash Function/Hash Cracker]\n├─[Enter the hash]"+color_banner[1]+"$ "+Color.End).strip()
             if len(Hash) == 32:
                 hashvalue = "md5"
             elif len(Hash) == 40:
@@ -1029,7 +1028,7 @@ def christopher():
         PB = Plugboard(["PI", "KM", "JB", "YU", "QS", "ZA", "GW", "CH", "XF"])
         ENIGMA = Enigma(A, III, II, IV, PB, KB)
         ENIGMA.set_rings((22,2,6))
-        message = input("\n┌───(christopher)─[~/christopher/Cryptography/Enigma Machine]\n├─[Enter your message]"+color_banner[1]+"$ "+Color.End).upper().strip()
+        message = input("\n┌───(christopher)─[Enigma Machine]\n├─[Enter your message]"+color_banner[1]+"$ "+Color.End).upper().strip()
         if len(message) == 0:
             slowprint("└─["+Color.BRed+"Message cannot be empty"+Color.End+"]")
             again()
@@ -1061,14 +1060,14 @@ def christopher():
         clearScr()
         time.sleep(0.4)
         print(Banner.banner)
-        pick = input("    [01]Encryption       [02]Decryption\n    [03]Key Generator    [99]Back to Main Menu\n\n┌───(christopher)─[~/christopher/Cryptography/Public Key Cipher]\n└─"+color_banner[1]+"$ "+Color.End)
+        pick = input("   [01]Encryption        [02]Decryption\n   [03]Key Generator     [99]Back to Main Menu\n\n┌───(christopher)─[~/christopher/Cryptography/Public Key Cipher]\n└─"+color_banner[1]+"$ "+Color.End)
 
         #::::: Encryption :::::
         if(pick == "1" or pick == "01"):
             clearScr()
             time.sleep(0.4)
             print(Banner.banner)
-            plaintext = input("\n┌───(christopher)─[~/christopher/Cryptography/Public Key Cipher/Encryption]\n├─[Enter your Plaintext]"+color_banner[1]+"$ "+Color.End).strip()
+            plaintext = input("\n┌───(christopher)─[Public Key Cipher/Encryption]\n├─[Enter your Plaintext]"+color_banner[1]+"$ "+Color.End).strip()
             if len(plaintext) == 0:
                 slowprint("└─["+Color.BRed+"Plaintext cannot be empty"+Color.End+"]")
                 again()
@@ -1090,7 +1089,7 @@ def christopher():
             clearScr()
             time.sleep(0.4)
             print(Banner.banner)
-            encrypted_file = input("\n┌───(christopher)─[~/christopher/Cryptography/Public Key Cipher/Decryption]\n├─[Enter your Encrypted file]"+color_banner[1]+"$ "+Color.End).strip()
+            encrypted_file = input("\n┌───(christopher)─[Public Key Cipher/Decryption]\n├─[Enter your Encrypted file]"+color_banner[1]+"$ "+Color.End).strip()
             if len(encrypted_file) == 0:
                 slowprint("└─["+Color.BRed+"Plaintext cannot be empty"+Color.End+"]")
                 again()
@@ -1108,7 +1107,7 @@ def christopher():
             time.sleep(0.4)
             print(Banner.banner)
             try:
-                keysize = int(input("\n┌───(christopher)─[~/christopher/Cryptography/Public Key Cipher/Key Generator]\n├─[Enter the key size]"+color_banner[1]+"$ "+Color.End))
+                keysize = int(input("\n┌───(christopher)─[Public Key Cipher/Key Generator]\n├─[Enter the key size]"+color_banner[1]+"$ "+Color.End))
                 if keysize <= 1:
                     slowprint("└─["+Color.BRed+"The key size value must be greater than 1"+Color.End+"]")
                     again()
@@ -1129,16 +1128,6 @@ def christopher():
             christopher()
         else:
             again()
-
-    #::::: Github :::::
-    elif (choice == "2" or choice == "02"):
-        clearScr()
-        time.sleep(0.4)
-        print(Banner.github_banner)
-        time.sleep(0.9)
-        url = "https://github.com/mammaddrik"
-        webbrowser.open(url)
-        again()
 
     #::::: Exit :::::
     elif (choice == "99"):
