@@ -140,7 +140,7 @@ python pip install -r requirements.txt
 ```
 
 ## Usage
-
+Follow on-screen instructions to interact with the program: choose from encryption, decryption, hash generation, or cryptanalysis options, enter your messages or keys, and the tool will process and display the output directly in the terminal.
 ## Screenshots
 
 ## License
