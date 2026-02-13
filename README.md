@@ -143,10 +143,11 @@ python pip install -r requirements.txt
 Follow on screen instructions to interact with the program: choose from encryption, decryption, hash generation, or cryptanalysis options, enter your messages or keys, and the tool will process and display the output directly in the terminal.
 ## Screenshots
 <p align="center">
-    <img src="" alt="HashCracker">
-    <img src="" alt="Favorite">
-    <img src="" alt="Favorite">
+    <img src="https://i.postimg.cc/KcB1Ynkh/Encryption.png" alt="Encryption">
+    <img src="https://i.postimg.cc/dtScPfsK/Decryption.png" alt="Decryption">
+    <img src="https://i.postimg.cc/MZNg9QdM/Hash-Cracker.png" alt="HashCracker">
 </p>
+
 ## License
 Christopher is licensed under [MIT License](https://github.com/mammaddrik/christopher/blob/main/LICENSE).
 
