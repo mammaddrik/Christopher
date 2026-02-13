@@ -6,7 +6,12 @@
 
 
 # Christopher
-
+Project Description
+Christopher is a comprehensive command-line cryptography toolkit designed for learning, experimenting with, and understanding classical encryption algorithms.
+It provides a wide collection of historical ciphers, hashing utilities, and encryption mechanisms in a single interactive interface.
+This project aims to demonstrate how traditional cryptographic systems work internally by allowing users to encrypt, decrypt, and even attempt to crack various classical ciphers. It serves as an educational resource for students, cybersecurity beginners, and anyone interested in the foundations of cryptography.
+Christopher includes implementations of substitution ciphers, transposition ciphers, polyalphabetic systems, hash functions, and even a simulation of the Enigma machine. The tool is built with modular architecture, making it easy to extend with additional algorithms and cryptographic techniques.
+> **Note:** The majority of the included ciphers are classical and are intended for educational purposes only. They should not be used for real-world security.
 <p align="center">
     <img src="https://i.postimg.cc/VkJkrZtn/christopher.png">
 </p>
