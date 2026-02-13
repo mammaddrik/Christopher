@@ -12,7 +12,7 @@ This project aims to demonstrate how traditional cryptographic systems work inte
 Christopher includes implementations of substitution ciphers, transposition ciphers, polyalphabetic systems, hash functions, and even a simulation of the Enigma machine. The tool is built with modular architecture, making it easy to extend with additional algorithms and cryptographic techniques.
 > **Note:** The majority of the included ciphers are classical and are intended for educational purposes only. They should not be used for real-world security.
 <p align="center">
-    <img src="https://i.postimg.cc/VkJkrZtn/christopher.png">
+    <img src="https://i.postimg.cc/85rgD40w/christopher.png" alt="Christopher">
 </p>
 
 What is Cryptography? [Here](https://en.wikipedia.org/wiki/Cryptography)<br>
@@ -23,7 +23,7 @@ What is Cryptography? [Here](https://en.wikipedia.org/wiki/Cryptography)<br>
 - 🔄 Support for both encryption and decryption operations
 - 🧠 Cipher Cracking and basic cryptanalysis capabilities
 - 🧩 Modular architecture for easy extension
--🎓 Educational focus with practical experimentation support
+- 🎓 Educational focus with practical experimentation support
 
 ## Including
 <details>
@@ -140,9 +140,13 @@ python pip install -r requirements.txt
 ```
 
 ## Usage
-Follow on-screen instructions to interact with the program: choose from encryption, decryption, hash generation, or cryptanalysis options, enter your messages or keys, and the tool will process and display the output directly in the terminal.
+Follow on screen instructions to interact with the program: choose from encryption, decryption, hash generation, or cryptanalysis options, enter your messages or keys, and the tool will process and display the output directly in the terminal.
 ## Screenshots
-
+<p align="center">
+    <img src="" alt="HashCracker">
+    <img src="" alt="Favorite">
+    <img src="" alt="Favorite">
+</p>
 ## License
 Christopher is licensed under [MIT License](https://github.com/mammaddrik/christopher/blob/main/LICENSE).
 
