@@ -24,6 +24,7 @@ What is Cryptography? [Here](https://en.wikipedia.org/wiki/Cryptography)<br>
 - 🧠 Cipher Cracking and basic cryptanalysis capabilities
 - 🧩 Modular architecture for easy extension
 -🎓 Educational focus with practical experimentation support
+
 ## Including
 <details>
 
@@ -125,16 +126,6 @@ cd christopher
 python pip install -r requirements.txt
 python christopher.py
 ```
-Or you can install it:
-```
-git clone https://github.com/mammaddrik/christopher.git
-cd christopher
-python pip install -r requirements.txt
-sudo chmod +x setup.sh
-sudo bash setup.sh
-christopher
-```
-> **Note:** If you get a permission denied error, use this comment: `bash christopher`<br>
 
 ### requirements
 | **Requirements**  | **Command**  | **Link**  | **Version**  |
