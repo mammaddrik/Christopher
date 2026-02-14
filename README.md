@@ -12,7 +12,7 @@ This project aims to demonstrate how traditional cryptographic systems work inte
 Christopher includes implementations of substitution ciphers, transposition ciphers, polyalphabetic systems, hash functions, and even a simulation of the Enigma machine. The tool is built with modular architecture, making it easy to extend with additional algorithms and cryptographic techniques.
 > **Note:** The majority of the included ciphers are classical and are intended for educational purposes only. They should not be used for real-world security.
 <p align="center">
-    <img src="https://i.postimg.cc/85rgD40w/christopher.png" alt="Christopher">
+    <img src="https://i.postimg.cc/9FY0NY5N/christopher.png" alt="Christopher">
 </p>
 
 What is Cryptography? [Here](https://en.wikipedia.org/wiki/Cryptography)<br>
