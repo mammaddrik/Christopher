@@ -12,22 +12,18 @@ else:
 def loadDictionary() -> dict:
     """
     Loads a dictionary of English words from a file.
-
     Returns:
     dict: A dictionary where each key is an English word from the file.
     """
-    if os.name == "nt":
-        dictionaryFile = open(r'.\detect\dictionary.txt')
-    else:
-        try:
-            dictionaryFile = open(r'/usr/local/sbin/detect/dictionary.txt')
-        except FileNotFoundError:
-            dictionaryFile = open(r'/detect/dictionary.txt')
-    englishWords = {}
-    for word in dictionaryFile.read().split('\n'):
-        englishWords[word] = None
-    dictionaryFile.close()
+
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    dictionary_path = os.path.join(base_dir, "dictionary.txt")
+
+    with open(dictionary_path, "r") as dictionaryFile:
+        englishWords = {word: None for word in dictionaryFile.read().splitlines()}
+
     return englishWords
+
 
 ENGLISH_WORDS = loadDictionary()
 
